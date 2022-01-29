@@ -1,0 +1,59 @@
+@import "null.css";
+
+.major-title {
+  color: brown;
+}
+
+.nav-list {
+  color: blue;
+}
+.nav-item {
+  color: aquamarine;
+}
+.nav-subitem {
+  color: magenta;
+}
+.nav-other {
+  color: darkorange;
+}
+.title-project {
+  color: crimson;
+}
+.title-construction {
+  color: aqua;
+}
+.subtitle {
+  color: antiquewhite;
+}
+
+p {
+  color: deeppink;
+}
+
+#back-on-top {
+  color: gold;
+}
+
+.subtitle.exception {
+  color: yellow;
+}
+
+main .nesting {
+  color: crimson;
+}
+
+.li-example .nav-item {
+  color: darkmagenta;
+}
+
+.title-project + p {
+  color: greenyellow;
+}
+
+.subtitle.nesting ~ p {
+  color: greenyellow;
+}
+
+[class="subtitle-attribute"] {
+  color: grey;
+}
